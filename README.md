@@ -1,23 +1,46 @@
-1. Kerangka Dasar & Navigasi
-<!DOCTYPE html> & <html>: Menunjukkan bahwa dokumen ini menggunakan standar HTML5 terbaru dan menjadi wadah utama seluruh kode.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profil Mahasiswa</title>
+</head>
+<body>
+<nav>
+<a href="index.html">Beranda</a>
+<a href="halaman2.html">Halaman 2</a>
+</nav>
+<hr>
 
-<head> & <title>: Bagian kepala dokumen yang memuat informasi meta halaman, di mana <title> berfungsi memberikan judul tab browser dengan teks "Profil Mahasiswa".
+<h1>Profil Mahasiswa</h1>
+<img src="images/profil.jpg" width="200"
+alt="Foto profil mahasiswa">
 
-<nav> & <a href="...">: Elemen navigasi yang berisi tautan (<a>) untuk berpindah antar halaman (ke halaman index.html dan halaman2.html).
+<h2>Data Diri</h2>
+<p>
+Nama: Zeline Zahirah Zahrah Yasin
+</p>
 
-<hr>: Membuat garis horizontal (pemisah visual) di bawah menu navigasi.
+<p>
+Program Studi: Teknik Informatika
+</p>
 
-2. Informasi Utama & Foto Profil
-<h1>: Judul utama halaman (heading tingkat 1) dengan teks "Profil Mahasiswa" yang berukuran besar dan penting untuk struktur SEO.
+<p>
+Saya sedang mempelajari dasar-dasar pengembangan aplikasi web menggunakan HTML.
+</p>
 
-<img src="..." width="..." alt="...">: Menampilkan foto profil dari folder images/profil.jpg dengan lebar 200 piksel, serta atribut alt sebagai deskripsi alternatif jika gambar gagal dimuat.
+<h2>Keahlian</h2>
 
-3. Data Diri
-<h2>: Sub-judul (heading tingkat 2) untuk membagi bagian halaman, digunakan di sini untuk bagian "Data Diri", "Keahlian", dan "Target Belajar".
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<h2>Target Belajar</h2>
 
-<p>: Paragraf teks untuk menampilkan informasi teks biasa, seperti Nama, Program Studi, dan sedikit deskripsi tentang kegiatan belajar web development.
+<ol>
+<li>Menguasai HTML</li>
+<li>Menguasai CSS</li>
+<li>Menguasai JavaScript</li>
+</ol>
 
-4. Daftar Keahlian & Target Belajar
-<ul> & <li> (Unordered List): Digunakan pada bagian Keahlian untuk menampilkan daftar item yang tidak berurutan (ditandai dengan titik/bullet), berisi keterampilan HTML, CSS, dan JavaScript.
-
-<ol> & <li> (Ordered List): Digunakan pada bagian Target Belajar untuk menampilkan daftar item yang berurutan (menggunakan angka 1 sampai 3), menunjukkan tahapan belajar dari HTML, CSS, hingga JavaScript secara sistematis.
+</body>
+</html>
